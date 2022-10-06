@@ -1,0 +1,107 @@
+body, h1, h2, h3, h4, p, a, ul, li {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.first-screen {
+    height: 100vh;
+    width: 100%;
+    background-color: #FFF9F2;
+    background: linear-gradient(to right, #FFF9F2 67%, #FDB827 33%);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    position: relative;
+    height: 140px;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 20%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.orange {
+    color: #FF800B;
+}
+
+.nav {
+    width: 100%;
+    justify-content: center;
+}
+
+.nav, .nav-items, .nav-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.nav-buttons {
+    margin-left: 20%;
+    
+}
+
+.nav-button {
+    background-color: #FFFFFF;
+    height: 50px;
+    margin-right: 19px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FF800B;
+}
+
+.nav-item,
+.nav-button {
+    padding: 0 25px;
+    width: max-content;
+}
+
+.h1 {
+    font-weight: 800;
+    font-size: 84px;
+    line-height: 120%;
+    width: 591px;
+}
+
+.first-screen-text {
+    margin: 160px 20%;
+}
+
+.h1-text {
+    width: 500px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: rgba(35, 53, 6, 0.65);
+    padding: 40px 0;
+}
+
+.order-now {
+    height: 66px;
+    background-color: #FDB827;
+    border-radius: 40px;
+    color: #FFFFFF;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    padding-left: 40px;
+}
