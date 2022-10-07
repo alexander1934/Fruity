@@ -1,3 +1,5 @@
+@import url(fonts/gilroy/stylesheet.css);
+
 body, h1, h2, h3, h4, p, a, ul, li {
     margin: 0;
     font-size: 100%;
@@ -12,23 +14,30 @@ body, h1, h2, h3, h4, p, a, ul, li {
 }
 
 .header {
+    font-family: 'Gilroy';
     display: flex;
     align-items: center;
     z-index: 10;
     position: relative;
     height: 140px;
     width: 100%;
+    color: rgb(35, 53, 6);
 }
 
 .logo {
-    margin-left: 20%;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
+    line-height: 45px;
+    margin-left: 20%;
 }
 
 .orange {
     color: #FF800B;
+}
+
+.orange2 {
+    color: #FDB827;
 }
 
 .nav {
@@ -58,7 +67,7 @@ body, h1, h2, h3, h4, p, a, ul, li {
     margin-right: 19px;
     display: flex;
     align-items: center;
-    border-radius: 25px;
+    border-radius: 18px;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -72,7 +81,12 @@ body, h1, h2, h3, h4, p, a, ul, li {
     width: max-content;
 }
 
+.icons {
+    padding: 0 14px;
+}
+
 .h1 {
+    font-family: 'Gilroy';
     font-weight: 800;
     font-size: 84px;
     line-height: 120%;
@@ -81,6 +95,7 @@ body, h1, h2, h3, h4, p, a, ul, li {
 
 .first-screen-text {
     margin: 160px 20%;
+    color: #233506;
 }
 
 .h1-text {
@@ -88,7 +103,7 @@ body, h1, h2, h3, h4, p, a, ul, li {
     font-weight: 400;
     font-size: 18px;
     line-height: 170%;
-    color: rgba(35, 53, 6, 0.65);
+    color: rgb(35, 53, 6);
     padding: 40px 0;
 }
 
@@ -104,4 +119,8 @@ body, h1, h2, h3, h4, p, a, ul, li {
     font-size: 18px;
     line-height: 18px;
     padding-left: 40px;
+}
+
+.arrow {
+    padding-left: 20px;
 }
