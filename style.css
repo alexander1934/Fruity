@@ -1,4 +1,5 @@
 @import url(fonts/gilroy/stylesheet.css);
+@import url(fonts/sofiaPro/stylesheet.css);
 
 body, h1, h2, h3, h4, p, a, ul, li {
     margin: 0;
@@ -105,6 +106,7 @@ body, h1, h2, h3, h4, p, a, ul, li {
     line-height: 170%;
     color: rgb(35, 53, 6);
     padding: 40px 0;
+    font-family: 'Sofia Pro';
 }
 
 .order-now {
