@@ -203,3 +203,47 @@ body, h1, h2, h3, h4, p, a, ul, li {
     font-size: 18px;
     line-height: 22px;
 }
+
+.third-screen {
+    width: 100%;
+    background-image: url(img/image1.png);
+    height: 798px;
+    background-repeat: no-repeat;
+    background-color: #FFF9F2;
+    display: flex;
+    align-items: center;
+}
+
+.third-screen__grid {
+    display: grid;
+    grid-template: repeat(2, max-content) / repeat(2, max-content);
+    grid-gap: 20px;
+}
+
+.grid-item1 {
+    align-self: end;
+}
+
+.third-screen__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.third-screen__h2 {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.third-screen__text {
+    width: 500px;
+}
+
+.third-screen__p {
+    font-family: 'Sofia Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 170%;
+color: grey;
+}
