@@ -237,13 +237,39 @@ body, h1, h2, h3, h4, p, a, ul, li {
 
 .third-screen__text {
     width: 500px;
+    height: 830px;
 }
 
 .third-screen__p {
     font-family: 'Sofia Pro';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 170%;
-color: grey;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: grey;
 }
+
+.dignity__item {
+    height: 62px;
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.dignity__item__text {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    padding-left: 30px;
+}
+
+.h3 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    }
