@@ -227,7 +227,7 @@ body, h1, h2, h3, h4, p, a, ul, li {
 .third-screen__content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    width: 0;
 }
 
 .third-screen__h2 {
@@ -238,6 +238,7 @@ body, h1, h2, h3, h4, p, a, ul, li {
 .third-screen__text {
     width: 500px;
     height: 830px;
+    margin-left: 100px;
 }
 
 .third-screen__p {
@@ -272,4 +273,46 @@ body, h1, h2, h3, h4, p, a, ul, li {
     font-size: 20px;
     line-height: 25px;
     padding-bottom: 10px;
-    }
+}
+
+.fourth-screen {
+    height: 957px;
+}
+
+.fourth-screen__text {
+    width: 500px;
+    height: 320px;
+    margin-right: 100px;
+}
+
+.fourth-screen__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 957px;
+}
+
+.fourth-screen__h2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 87px;
+    color: #233506;
+    margin-bottom: 50px;
+}
+
+.read-more {
+    height: 66px;
+    background-color: #FDB827;
+    border-radius: 40px;
+    color: #FFFFFF;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 50px;
+}
