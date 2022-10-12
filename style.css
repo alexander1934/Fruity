@@ -8,13 +8,13 @@ body, h1, h2, h3, h4, p, a, ul, li {
 }
 
 .wrap {
-    width: 61%;
+    width: 0;
     margin: 0 auto;
     min-width: 1100px;
 }
 
 .first-screen {
-    height: 100vh;
+    height: 110vh;
     background: linear-gradient(to right, #FFF9F2 67%, #FDB827 33%);
 }
 
@@ -24,6 +24,7 @@ body, h1, h2, h3, h4, p, a, ul, li {
     align-items: center;
     height: 140px;
     color: rgb(35, 53, 6);
+    width: 61%;
 }
 
 .header__logo {
@@ -130,7 +131,7 @@ body, h1, h2, h3, h4, p, a, ul, li {
 }
 
 .fruits {
-    width: 750px;
+    width: 700px;
 }
 
 .second-screen {
@@ -146,7 +147,6 @@ body, h1, h2, h3, h4, p, a, ul, li {
     color: #233506;
     margin-top: 130px;
     margin-bottom: 85px;
-    width: 0;
 }
 
 .shop-grid {
@@ -315,4 +315,91 @@ body, h1, h2, h3, h4, p, a, ul, li {
     font-size: 18px;
     line-height: 18px;
     margin-top: 50px;
+}
+
+.customer-rewiew {
+    height: 798px;
+    background-color: #FFF9F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.customer-rewiew__container {
+    width: 826px;
+    height: 368px;
+    background-color: #FFFFFF;
+    border-radius: 64px;
+}
+
+.customer-rewiew__h2 {
+    margin-top: 0;
+}
+
+.rewiew-div {
+    margin: 70px auto;
+    width: 600px;
+    text-align: center;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+}
+
+.footer {
+    height: 539px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center
+}
+
+.footer__block {
+    height: 198px;
+    border-bottom: grey 1px solid;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    padding-bottom: 50px;
+}
+
+.footer__h4 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 46px;
+    color: #243165;
+    padding-bottom: 20px;
+}
+
+.footer__p {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: gray;
+}
+
+.footer__element1 {
+    width: 289px;
+}
+
+.footer__ul{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: gray;
+    padding: 0;
+}
+
+.footer__li {
+    list-style: none;
+    padding: 5px 0;
+
 }
