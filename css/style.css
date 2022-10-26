@@ -1,5 +1,11 @@
 @import url(fonts/gilroy/stylesheet.css);
 @import url(fonts/sofiaPro/stylesheet.css);
+@media (max-width: 1570px) {
+  .fruits {
+    max-width: 500px;
+    max-height: 519px;
+  }
+}
 body, h1, h2, h3, h4, p, a, ul, li {
   margin: 0;
   font-size: 100%;
@@ -152,6 +158,9 @@ body, h1, h2, h3, h4, p, a, ul, li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .fruits {
