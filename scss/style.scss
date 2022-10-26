@@ -1,6 +1,18 @@
 @import url(fonts/gilroy/stylesheet.css);
 @import url(fonts/sofiaPro/stylesheet.css);
 
+$orange1: #FF800B;
+$orange2: #FDB827;
+$color1: #FFF9F2;
+$color2: #233506;
+
+@mixin fontText {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    font-family: 'Sofia Pro';
+}
+
 body, h1, h2, h3, h4, p, a, ul, li {
     margin: 0;
     font-size: 100%;
@@ -15,7 +27,7 @@ body, h1, h2, h3, h4, p, a, ul, li {
 
 .first-screen {
     height: 110vh;
-    background: linear-gradient(to right, #FFF9F2 67%, #FDB827 33%);
+    background: linear-gradient(to right, $color1 67%, $orange2 33%);
 }
 
 .header {
@@ -23,7 +35,7 @@ body, h1, h2, h3, h4, p, a, ul, li {
     display: flex;
     align-items: center;
     height: 140px;
-    color: rgb(35, 53, 6);
+    color: $color2;
     width: 61%;
 }
 
@@ -35,18 +47,18 @@ body, h1, h2, h3, h4, p, a, ul, li {
 }
 
 .orange {
-    color: #FF800B;
+    color: $orange1;
 }
 
 .orange2 {
-    color: #FDB827;
+    color: $orange2;
 }
 
-.nav, .nav-items, .nav-buttons {
+.header__nav, .nav-items, .nav-buttons {
     display: flex;
 }
 
-.nav {
+.header__nav {
     width: 100%;
     align-items: center;
     justify-content: space-between;
@@ -70,7 +82,7 @@ body, h1, h2, h3, h4, p, a, ul, li {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    color: #FF800B;
+    color: $orange1;
 }
 
 .nav-item,
@@ -93,22 +105,20 @@ body, h1, h2, h3, h4, p, a, ul, li {
 
 .first-screen__text {
     margin-top: 160px;
-    color: #233506;
+    color: $color2;
 }
 
 .h1-text {
+    @include fontText();
     width: 500px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 170%;
-    color: rgb(35, 53, 6);
+    color: $color2;
     padding: 40px 0;
-    font-family: 'Sofia Pro';
+
 }
 
 .order-now {
     height: 66px;
-    background-color: #FDB827;
+    background-color: $orange2;
     border-radius: 40px;
     color: #FFFFFF;
     width: 170px;
