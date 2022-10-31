@@ -367,6 +367,20 @@ body, h1, h2, h3, h4, p, a, ul, li {
     line-height: 170%;
 }
 
+.rewiew-div_active {
+    animation-name: smoothtext;
+    animation-duration: 100ms;
+}
+
+@keyframes smoothtext {    
+    from {
+        color: #FFFFFF;
+    }
+    to {
+        color: #000000;
+    }
+}
+
 .rewiew-button {
     display: flex;
     justify-content: center;

@@ -21,8 +21,8 @@ newButton.onclick = function(){
   if (arrayIndex >= arr.length){
     arrayIndex = 0;
   }
-  rewiew.textContent = arr[arrayIndex]
-  console.log(arrayIndex)
+  rewiew.textContent = arr[arrayIndex];
+  console.log(arrayIndex);
 }
 
 reverseButton.onclick = function(){
@@ -34,3 +34,14 @@ reverseButton.onclick = function(){
   rewiew.textContent = arr[arrayIndex];
 }
 
+newButton.addEventListener ('click', () =>{
+  rewiew.classList.add('rewiew-div_active');
+});
+
+// Отслеживаем окончание анимации
+rewiew.addEventListener("animationend", AnimationHandler, false);
+
+function AnimationHandler () {
+  // Удаляем класс с анимацией
+  rewiew.classList.remove('rewiew-div_active')
+}

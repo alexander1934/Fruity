@@ -431,6 +431,30 @@ body, h1, h2, h3, h4, p, a, ul, li {
   display: flex;
 }
 
+.rewiew-div_active {
+  -webkit-animation-name: smoothtext;
+          animation-name: smoothtext;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+@-webkit-keyframes smoothtext {
+  from {
+    color: #FFFFFF;
+  }
+  to {
+    color: #000000;
+  }
+}
+
+@keyframes smoothtext {
+  from {
+    color: #FFFFFF;
+  }
+  to {
+    color: #000000;
+  }
+}
 .customer-rewiew__h2 {
   margin-top: 0;
 }
